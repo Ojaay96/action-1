@@ -4,11 +4,11 @@ on:
   push
 
 jobs:
-  build_job:
+  build_job_1:
     runs-on: ubuntu-latest
     steps:
-    - name: Install Coway Program
-      uses: sudo apt-get install coway -y
+    - name: Install Cowsay Program
+      uses: sudo apt-get install cowsay -y
 
     - name: Execute Cowsay CMD
       uses: cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon.txt
