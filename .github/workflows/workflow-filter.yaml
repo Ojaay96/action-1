@@ -3,11 +3,11 @@ name: Workflow Filters and Activities
 on:
    
    workflow_dispatch: 
-
+    
    push:
      branches: 
         - main
-        - '!feature*/'
+        - '!feature/*'
 
     pull_request: 
       types: 
