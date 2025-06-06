@@ -1,7 +1,6 @@
-name: Workflow Filters and Activities
+name: Workflow Filters and Activitie
 
 on:
-   
    workflow_dispatch: 
     
    push:
