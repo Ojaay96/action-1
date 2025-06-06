@@ -1,4 +1,4 @@
-name: Workflow Filters and Activitie
+name: Workflow Filters and Activities
 
 on:
   workflow_dispatch:
