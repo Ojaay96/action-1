@@ -3,19 +3,20 @@ name: Workflow Filters and Activities
 on:
    
    workflow_dispatch: 
+
    push:
-    branches: 
+     branches: 
         - main
         - '!feature*/'
 
-   pull_request: 
-    types: 
-      - opened
-      - closed
-    paths-ignore: 
-      - READDME.md
-    branches: 
-      - main
+    pull_request: 
+      types: 
+        - opened
+        - closed
+      paths-ignore: 
+        - README.md
+      branches: 
+        - main
 
 jobs:
   hello:
